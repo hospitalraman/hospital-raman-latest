@@ -56,6 +56,7 @@ public class afterSignActivity extends AppCompatActivity {
         });
 
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
     }

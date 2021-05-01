@@ -52,6 +52,7 @@ public class signhp extends AppCompatActivity {
 
             }
         });
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
 

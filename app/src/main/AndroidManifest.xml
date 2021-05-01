@@ -12,9 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HRapp">
         <activity android:name=".userbio"
-            android:parentActivityName=".stats"></activity>
-        <activity android:name=".afterSignActivity" />
-        <activity android:name=".signhp" />
+            android:parentActivityName=".afterSignActivity"></activity>
+        <activity android:name=".afterSignActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".signhp"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".stats"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">

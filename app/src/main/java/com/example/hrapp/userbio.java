@@ -12,5 +12,7 @@ public class userbio extends AppCompatActivity {
         setContentView(R.layout.activity_userbio);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
